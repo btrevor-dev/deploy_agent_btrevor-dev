@@ -1,3 +1,5 @@
+#Link to the video explanation: https://www.loom.com/share/9c51793c95d14aeda55a003c994022e1
+
 # Student Attendance Tracker - Setup Script
 
 ## Overview
