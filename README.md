@@ -6,7 +6,6 @@ This script automates the creation of a project workspace for the Student Attend
 
 Additionally, the script is designed to handle unexpected interruptions by archiving incomplete setups before exiting.
 
-
 ## Prerequisites
 
 Ensure the following required files are present in the same directory as the script before execution:
@@ -16,19 +15,17 @@ Ensure the following required files are present in the same directory as the scr
 * config.json
 * reports.log
 
-Also confirm that Python 3 is installed on your system.
-
-
+Also confirm that Python3 is installed on your system.
 
 ## Running the Script
 
 1. Make the script executable:
 
-chmod +x setup.sh
+chmod u+x setup_project.sh
 
 2. Run the script:
 
-./setup.sh
+bash setup_project.sh
 
 3. When prompted, enter a name for your project directory.
    The script will automatically create a directory in the format:
@@ -37,7 +34,6 @@ attendance_tracker_<your_input>
 
 4. You will then be asked if you want to update attendance thresholds.
    Enter `yes` to provide custom warning and failure thresholds, or `no` to use the default values.
-
 
 ## Directory Structure Created
 
@@ -69,7 +65,6 @@ When interrupted:
 attendance_tracker_<your_input>_archive.tar.gz
 
 This ensures that partially completed setups are preserved before cleanup.
-
 
 ## Notes
 
